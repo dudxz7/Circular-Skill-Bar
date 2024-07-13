@@ -1,2 +1,2 @@
-<h1 align="center">Circle Skill Bar ⭕</h1>
+<h1 align="center">Circular Skill Bar ⭕</h1>
 <p>Este projeto é um portfólio dinâmico que destaca habilidades de programação por meio de gráficos circulares animados. O design moderno e sofisticado, com um fundo preto e texto em letras maiúsculas brancas, cria um contraste impactante e elegante. A seção de habilidades é centralizada e organizada em um layout flexível, com gráficos para HTML, CSS, JavaScript e PHP, cada um codificado por cores distintas e exibindo uma animação que representa a proficiência do usuário. A animação de preenchimento dos gráficos, ajustada para cada habilidade, oferece uma visualização clara e envolvente das competências, tornando o portfólio tanto informativo quanto esteticamente atraente.</p>
