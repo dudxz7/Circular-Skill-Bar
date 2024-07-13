@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+}
+body{
+    background: #000;
+    text-transform: uppercase;
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+.habilidades{
+    width: 100%;
+    text-align: center;
+    margin: 60px auto;
+    padding: 20px;	
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.circulo{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    margin: 20px;
+}
+.graficodecirco{
+    width: 100%;
+    height: 100%;
+}
+.fundodocirc{
+    fill: none;
+    stroke: #1d1c1c;
+    stroke-width: 3.8;
+    background: #000;
+}
+.progresscirc{
+    fill: none;
+    stroke-width: 3.8;
+    stroke-linecap: round;
+    animation: progress 3s ease-out forwards;
+}
+.html .progresscirc{
+    stroke: #F26529;
+}
+.css .progresscirc{
+    stroke: #2A65F0;
+}
+.js .progresscirc{
+    stroke: #F7E01D;
+}
+.php .progresscirc{
+    stroke: #8A93BD;
+}
+.porcentagem{
+    fill: white ;
+    text-anchor: middle;
+    font-size: 0.5em;
+}
+.labeldocirculo{
+    position: absolute;
+    bottom: 35px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+
+/* Animação */
+
+@keyframes progress {
+    0% {
+        stroke-dasharray: 1, 100;
+    }
+    100% {
+        stroke-dasharray: var(--progress), 100;
+    }
+}
+.circulo.html .progresscirc{
+    --progress: 90;
+}
+.circulo.css .progresscirc{
+    --progress: 75;
+}
+.circulo.js .progresscirc{
+    --progress: 60;
+}
+.circulo.php .progresscirc{
+    --progress: 2;
+}
